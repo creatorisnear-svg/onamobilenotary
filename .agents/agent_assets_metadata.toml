@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "cCLNp7dSrkTV3OWoY7wHR"
+uri = "file://artifacts/arizona-mobile-notary/public/images/hero-bg.jpg"
+type = "image"
+title = "professional business document signing notary pen desk"
+
+[[outputs]]
+id = "EsYbdFFTfjBMyDjm0rYPX"
+uri = "file://artifacts/arizona-mobile-notary/public/images/az-skyline.jpg"
+type = "image"
+title = "phoenix arizona skyline sunset landscape"
