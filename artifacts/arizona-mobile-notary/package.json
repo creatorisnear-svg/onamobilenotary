@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "vite --config vite.config.ts --host 0.0.0.0",
     "build": "vite build --config vite.config.ts",
+    "build:cf": "BASE_PATH=/ PORT=0 vite build --config vite.config.ts",
+    "deploy": "pnpm run build:cf && wrangler deploy",
+    "deploy:pages": "pnpm run build:cf && wrangler pages deploy dist/public --project-name arizona-mobile-notary",
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
